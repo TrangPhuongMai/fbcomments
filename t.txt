@@ -1,0 +1,44 @@
+.//div[string-length(@class) = 2 and count(@id)=1 and contains("0123456789", substring(@id,1,1)) and .//div[contains(@id,"comment_replies")]]
+get all replied comments
+
+.//div[string-length(@class) = 2 and count(@id)=1 and contains("0123456789", substring(@id,1,1)) and not(.//div[contains(@id,"comment_replies")])]
+get all non replied comments
+
+
+
+/comment/replies/?ctoken=2237608619673589_491558158160999&p=-5&count=9&pc=1&ft_ent_identifier=2237608619673589&gfid=AQCQaTk4rou7fpU8&refid=52&_ft_=mf_story_key.2237608619673589%3Atop_level_post_id.2237608619673589%3Atl_objid.2237608619673589%3Acontent_owner_id_new.100002734181466%3Athrowback_story_fbid.2237608619673589%3Aphoto_attachments_list.%5B2237569896344128%2C2237569806344137%5D%3Astory_location.4%3Astory_attachment_style.album%3Athid.100002734181466&__tn__=R
+https://mbasic.facebook.com/story.php?story_fbid=2237608619673589&id=100002734181466&refid=17&_ft_=mf_story_key.2237608619673589%3Atop_level_post_id.22376086196
+
+
+
+/comment/replies/?ctoken=2237608619673589_491558158160999&amp;p=-5&amp;count=9&amp;pc=1&amp;ft_ent_identifier=2237608619673589&amp;gfid=AQ
+/comment/replies/?ctoken=2237608619673589_491558158160999&amp;p=-5&amp;count=9&amp;pc=1&amp;ft_ent_identifier=2237608619673589&amp;gfid=AQCQaTk4rou7fpU8&amp;refid=52&amp;_ft_=mf_story_key.2237608619673589%3Atop_level_post_id.2237608619673589%3Atl_objid.2237608619673589%3Acontent_owner_id_new.100002734181466%3Athrowback_story_fbid.2237608619673589%3Aphoto_attachments_list.%5B2237569896344128%2C2237569806344137%5D%3Astory_location.4%3Astory_attachment_style.album%3Athid.100002734181466&amp;__tn__=R
+
+
+https://mbasic.facebook.com/comment/replies/?ctoken=2237608619673589_491558158160999&p=-5&count=9&pc=1&ft_ent_identifier=2237608619673589&gfid=AQCQaTk4rou7fpU8&ref
+
+https://mbasic.facebook.com/comment/replies/?ctoken=2237608619673589_2237613216339796 &count=3&curr&pc=1&ft_ent_identifier=2237608619673589 &gfid=AQDwdD-smuEPX9dW &refid=52 &_ft_=mf_story_key.2237608619673589%3Atop_level_post_id.2237608619673589%3Atl_objid.2237608619673589%3Acontent_owner_id_new.100002734181466%3Athrowback_story_fbid.2237608619673589%3Aphoto_attachments_list.%5B2237569896344128%2C2237569806344137%5D%3Astory_location.4%3Astory_attachment_style.album%3Athid.100002734181466&__tn__=R
+
+
+https://mbasic.facebook.com/comment/replies/?ctoken=2237608619673589_491558158160999&p=-5&count=9&pc=1&ft_ent_identifier=2237608619673589&gfid=AQBtBva_4YtFO3it&refid=52&ref
+
+https://mbasic.facebook.com/comment/replies/?ctoken=1543888015778302_1543947492439021&count=1&curr&pc=1&ft_ent_identifier=1543888015778302&gfid=AQBy7hn1yXyFJYw1
+
+
+
+############# https://mbasic.facebook.com/story.php?story_fbid=246795525967641&id=1555427368058884 ############## main post url
+
+# url that was taken from nested comments post
+https://mbasic.facebook.com/comment/replies/?ctoken=246795525967641_246803292633531&count=4&curr&pc=1&ft_ent_identifier=246795525967641&gfid=AQBbbev9YugBPaFJ&refid=52&__tn__=R
+
+#url that was taken from chrome url box
+https://mbasic.facebook.com/comment/replies/?ctoken=246795525967641_246803292633531&count=4&curr&pc=1&ft_ent_identifier=246795525967641&gfid=AQBbbev9YugBPaFJ&refid=52&__tn__=R
+
+#url that was taken using xpath with href tag
+https://mbasic.facebook.com/comment/replies/?ctoken=246795525967641_246803292633531&count=4&curr&pc=1&ft_ent_identifier=246795525967641&gfid=AQBbbev9YugBPaFJ&refid=52&__tn__=R
+
+#url that was taken using xpath with outerHTML
+                           /comment/replies/?ctoken=246795525967641_246803292633531&amp;count=4&amp;curr&amp;pc=1&amp;ft_ent_identifier=246795525967641&amp;gfid=AQBbbev9YugBPaFJ&amp;refid=52&amp;__tn__=R
+                           /comment/replies/?ctoken=246795525967641_246803292633531&amp;count=4&amp;curr&amp;pc=1&amp;ft_ent_identifier=246795525967641&amp;gfid=AQBbbev9YugBPaFJ&amp;refid=52&amp;__tn__=R
+
+

@@ -1,0 +1,50 @@
+############# https://mbasic.facebook.com/story.php?story_fbid=2323944954503899&id=100006652505738 ############## main post url
+
+# url that was taken from nested comments post
+https://mbasic.facebook.com/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAMp-hjA8RIftKl&refid=52&__tn__=R
+broken link
+
+
+#url that was taken from chrome url box
+
+https://mbasic.facebook.com/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAl5_CuRIy4VOKs&refid=52&__tn__=R
+
+
+
+#url that was taken using xpath with href tag
+https://mbasic.facebook.com/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAl5_CuRIy4VOKs&refid=52&__tn__=R
+
+
+#url that was taken using xpath with outerHTML
+
+                          /comment/replies/?ctoken=2323944954503899_2323957707835957&amp;count=4&amp;curr&amp;pc=1&amp;ft_ent_identifier=2323944954503899&amp;gfid=AQAl5_CuRIy4VOKs&amp;refid=52&amp;__tn__=R
+                          #broken until remove amp;
+                          /comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAl5_CuRIy4VOKs&refid=52&__tn__=R
+#url when taken from element href
+                          /comment/replies/?ctoken=2323944954503899_2324295577802170&amp;count=1&amp;curr&amp;pc=1&amp;ft_ent_identifier=2323944954503899&amp;gfid=AQAaB_JjdsLoyIRA&amp;refid=52&amp;__tn__=R
+
+
+i see that &gfid somewhat different
+i find that &gfid are static and dont change after each reset
+i change broken link in my code and find that the link with new &gfid work
+so that mean i must find why it have stange &gfid
+
+https://mbasic.facebook.com/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAl5_CuRIy4VOKs&refid=52&__tn__=R
+
+https://mbasic.facebook.com/comment/replies/?ctoken=850744192054881_850747635387870&count=1&curr&pc=1&ft_ent_identifier=850744192054881&gfid=AQAKooAMxLTTZvDH&refid=52&__tn__=R
+
+
+/comment/replies/?ctoken=2323944954503899_2323957707835957&amp;actor_id=100041490302112&amp;ft_ent_identifier=2323944954503899&amp;gfid=AQB0yYRcr-G5Q_BF&amp;refid=52&amp;__tn__=R
+
+
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+['/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAMp-hjA8RIftKl&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2323968164501578&count=3&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBg9T_nklcQUbVr&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324236921141369&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBW7onYlXVUse-V&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324295577802170&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQCOhpFPcPlFBV2p&refid=52&__tn__=R']
+
+USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36'
+['/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAMp-hjA8RIftKl&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2323968164501578&count=3&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBg9T_nklcQUbVr&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324236921141369&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBW7onYlXVUse-V&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324295577802170&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQCOhpFPcPlFBV2p&refid=52&__tn__=R']
+
+USER_AGENT = Mozilla/5.0 (Linux; Android 4.1; Nexus 7 Build/JRN84D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19
+['/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAMp-hjA8RIftKl&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2323968164501578&count=3&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBg9T_nklcQUbVr&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324236921141369&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBW7onYlXVUse-V&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324295577802170&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQCOhpFPcPlFBV2p&refid=52&__tn__=R']
+
+USER_AGENT = default
+['/comment/replies/?ctoken=2323944954503899_2323957707835957&count=4&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQAMp-hjA8RIftKl&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2323968164501578&count=3&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBg9T_nklcQUbVr&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324236921141369&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQBW7onYlXVUse-V&refid=52&__tn__=R', '/comment/replies/?ctoken=2323944954503899_2324295577802170&count=1&curr&pc=1&ft_ent_identifier=2323944954503899&gfid=AQCOhpFPcPlFBV2p&refid=52&__tn__=R']
